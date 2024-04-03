@@ -17,4 +17,4 @@ deploy:
     docker push registry.heroku.com/$HEROKU_APP_NAME/web;
     heroku run --app $HEROKU_APP_NAME rails db:mygrate;
   on:
-    branch: master  
+    branch: master 
